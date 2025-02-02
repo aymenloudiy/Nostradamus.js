@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var testNormal = require('./include/normal'),
-	testMemoize = require('./include/memoize');
+import testNormal from "./include/normal";
+import testMemoize from "./include/memoize";
 
 testNormal();
 testMemoize();
-console.log('\nTests complete.\n');
+console.log("\nTests complete.\n");
